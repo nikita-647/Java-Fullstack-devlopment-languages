@@ -1,0 +1,4 @@
+Name=Rahul
+Location=Delhi
+Country=India
+Age=24
