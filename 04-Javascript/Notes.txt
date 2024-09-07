@@ -1,0 +1,51 @@
+                                         JAVASCRIPT
+
+         1. Javascript is a high-level,Object-Oriented,Multi-paradigm Programming language. 
+         Detail explain  given below:-
+
+
+         .> high-level means -  We don't have to worry about complex stuff like memory management.
+         .> programming language means - Instruct computer to do things.  
+         .> object-oriented means - Based on objects, For storing most kinds of data .
+         .> multi-paradigm means - We can use differnt styles of programming.
+
+        2. There is nothing you can't do with Javascript.Example:-
+        Dynamic effect and web applications in the browser, Web applications on web servers, Native mobile applications.
+        ReactNative.js,ionic.js,react.js, angularity.js,view.js,node.js.
+                                          
+                                           Variables
+        // To make variable we use (let)
+        .> The first word never be a number of a variable.for Example: 3years = 3;
+        .> We use number between or end of a variable. For Example:years3 or age100person;
+        .> Underscore used before in a variable.
+
+                                           Values
+        .> These are of two types: 
+         1. Objects:- let person = {
+        name: "Rahul";
+        }       
+
+        2. primitive: let firstname = "Rahul";
+        let age = 20;
+
+        It contain seven datatypes:
+        1. number: Floating point number  => used for decimal and integers
+        2. string: Sequence of Characters => used for text
+        3. Boolean: Logical type that can only be true or false => used for taking decisions
+        4. undefined: value taken by a variable that is not yet defined(empty value)
+        5. null: also means empty value
+        6. symbol: value that is unique and cannot be changed
+        7. BigInt: larger integers than the number can hold.                               
+
+        **  control + Shift + j key used to open console tab directly
+        **  Javascript has dynamic typing: We do not have to manually define the datatype and the value stored in a variable . Instead, datatype are determined automatically.
+             values has type, not variable.
+
+                   let vs const vs variable
+                  
+                  ``Backtick Symbol:->
+                  -> `` symbol used to create string evenly used to alter the sequence lines.
+:- 
+(javascript animation library {SAP } to learn animation)
+
+8. Hoisting:-> function call before declaration.it is found in Function Declaration.
