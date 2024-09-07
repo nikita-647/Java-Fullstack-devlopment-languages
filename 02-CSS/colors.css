@@ -1,0 +1,25 @@
+/* by name */
+.red {
+  color: blue;
+  color: red;
+  color: greenyellow;
+  color: yellow;
+}
+/* using rgb(red,green,blue) */
+.rgb {
+  color: rgb(0, 255, 17);
+
+  background-color: rgb(19, 11, 11);
+}
+
+/* binary 0-1 */
+/* green 0-9 */
+/* hex-decimal 0-9a-f */
+.hex {
+  color: #0a4f0a;
+}
+/* using rgba(red,green,blue,alpha) */
+/* alpha=0-1 */
+.rgba {
+  color: rgba(0, 0, 0, 0.8);
+}

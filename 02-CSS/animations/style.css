@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  display: block;
+}
+
+body {
+  font-family: "Bebas Neue", sans-serif;
+  min-height: 100vh;
+  background-color: #222;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  cursor: pointer;
+  padding: 1rem;
+  font-size: 3.2rem;
+  letter-spacing: 1px;
+  word-spacing: 0.2rem;
+  color: #222;
+}
+/* for animation */
+@keyframes slideInleft {
+  /* starting point */
+  from {
+    transform: translateX(-200px);
+  }
+  /* ending point */
+  to {
+    transform: translateX(0px);
+  }
+}
+.heading-1 {
+  /* shorthand way */
+
+  animation-name: slideInleft;
+  /* animation-duration: 2s; */
+  /* animation-timing-function: ease-in-out; */
+  /* animation-delay: 0s; */
+
+  /* by default value 1 */
+  /* animation-iteration-count: 2; */
+
+  /* alternate,reverse,alternate-reverse,normal */
+  /* animation-direction: reverse; */
+
+  /* animation-fill-mode: none; */
+  /* none:actual,from,to,actual */
+  /* forwards:original,from,to */
+  /* backwards:original,from,to */
+  /* both:from,to */
+
+  /* transform: translateX(-150px); */
+}
+@keyframes bounceeffect {
+  from {
+    transform: translateY(-200px);
+  }
+  to {
+    background-color: lightcoral;
+    width: 155 px;
+    height: 145px;
+    transform: translateY();
+  }
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  background-color: lightgreen;
+  border-radius: 999px;
+  animation: bounceeffect 1s alternate infinite;
+}
+/* .ground { 
+  width: 300px;
+  height: 4px;
+  background-color: #222;
+  border-radius: 18px;
+ } */
+.heart {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: #ff3838;
+  transform: rotate(45deg);
+  animation: heart 0.6s alternate infinite;
+}
+@keyframes heart {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}

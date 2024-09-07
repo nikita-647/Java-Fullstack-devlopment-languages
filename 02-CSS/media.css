@@ -1,0 +1,81 @@
+/* .box { 
+  width: 200px;
+  height: 200px;
+  background-color: lightcoral;
+}
+@media (width > 350px) {
+  body {
+    background-color: black;
+    color: aliceblue;
+  }
+  .box {
+    color: lightgreen;
+  }
+}
+@media (width > 550px) {
+  body {
+    background-color: rgb(15, 4, 4);
+    color: aliceblue;
+  }
+  .box {
+    background-color: aqua;
+  }
+ } */
+
+/* syntax
+ > media types
+ all
+ print
+ screen
+ 
+ >media features
+ width
+ height
+ orientation
+ hover
+ pointer*/
+
+body {
+  background-color: rgb(183, 178, 178);
+}
+.card {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.6rem;
+  width: 25rem;
+  max-width: 90%;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-img {
+  border: 6px solid lightgreen;
+  flex-grow: 1;
+  padding: 1rem;
+  height: 12rem;
+}
+.card-body {
+  border: 6px solid lightcoral;
+  flex-grow: 1;
+  padding: 1rem;
+  height: 12rem;
+}
+@media (width < 450px) {
+  .card {
+    flex-direction: column;
+  }
+}
+.main-heading {
+  font-size: 4rem;
+}
+@media (width < 100px) {
+  .main-heading {
+    font-size: 3rem;
+  }
+}
+@media (width < 600px) {
+  .main-heading {
+    font-size: 2rem;
+  }
+}

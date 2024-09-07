@@ -1,0 +1,42 @@
+.outer {
+  position: relative;
+
+  width: 250px;
+  height: 150px;
+  border: 1px solid red;
+  padding: 10px;
+}
+.inner {
+  border: 1px solid blue;
+  padding: 5px;
+
+  /* position:relative; */
+  /* position: relative; */
+  /* position: absolute; */
+  /* position: fixed; */
+  position: sticky;
+
+  /* top,left,bottom,right */
+  top: 10px;
+  left: 40px;
+}
+
+.div-1 {
+  border: 1px solid green;
+
+  display: inline;
+}
+.h-1 {
+  border: 1px solid rgb(225, 72, 146);
+  display: inline;
+  display: none;
+}
+.span-1 {
+  border: 1px solid rgb(167, 173, 10);
+  display: block;
+}
+.span-2 {
+  border: 1px solid rgb(93, 0, 255);
+  display: inline-block;
+  margin: 40px;
+}

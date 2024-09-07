@@ -1,0 +1,97 @@
+                             TEST OF HTML AND CSS
+
+Q1->  HTML ELEMENTS                                 HTML TAGS
+*  They holds the content.            * They are used to hold html elements.
+*  Anything written in html tag       * They are start with (<)symbol AND
+   is html element.                     ends with (>) symbol.
+*   FOR EXAMPLE-<b> HELLO </b>.        *  FOR EXAMPLE- <b></b>.
+
+Q2-> This give information to the browser about what document type to expect.
+*    the purpose of <!DOCTYPE>HTML is to tell  the web browser about the what version of html is used.
+
+Q3-> semantic element in html make code easy to understand and explain about the content in the elements.
+     FOR EXAMPLE-main,header,footer,article etc.
+
+Q4-> forms provide facilites to user to enter data that is send to server for processing such as name,password,
+email,phone number etc .
+ form elements            purpose    
+*<form>               to enter input by user side.
+*<input>              tell about input control.
+*<label>              label for input element.
+*<select>             define a drop down list.etc.
+
+Q5-> format of nested list are given below:
+<body>
+<ul>
+<li>....</li>
+<li>
+<ul>
+<li>....</li>
+<li>
+<ol>
+<li>.....</li>
+<li>.....</li>
+</ol>
+</li>
+<li>......</li>
+</ul>
+</li>
+<li>......</li>
+</ul>
+
+Q6-> BOX model in css is a type of container that contains multiple properties such as margin,border,padding and
+ content itself. IT is used for design of a web page.
+
+ Q7-> h1{
+    font-size:10px;
+    color:blue;
+ }
+
+ Q8-> class                                              Ids
+ * it selects a group of elements.              * it selects a single element.
+ * it can be represenetd by .before             * it can be represented by # before 
+   class.                                         id of the elements.
+ * ex: .class{                                  * ex: #id{
+    properties;                                        properties;
+ }                                                   }
+
+ Q9-> using border property. FOR EXAMPLE:h1{
+    border:20px solid red;
+ }
+
+Q10->div-1 {
+  width: 150px;
+  height: 150px;
+  /* border: 4px solid blue; */
+  background-color: aqua;
+  background-image: linear-gradient(to left, red green);
+  margin-bottom: 40px;
+}            and
+
+  h1{
+    box-shadow:25px 25px 25px lightgrey;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

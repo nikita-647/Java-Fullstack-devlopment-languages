@@ -1,0 +1,50 @@
+CSS-stands for cascading style sheet.
+CSS describe how html elements are to presented on the screen.
+
+The style for CSS is:
+selector{
+    properties;
+}
+each properties end with a semicolon(;).
+each properties include a css properties name and a value seprated by a semicolon(;).
+
+EXAMPLES:
+h1{
+    color:red;
+}
+
+Adding CSS to HTML page:
+
+- inline styles:
+It is more powerfull then internal css and external css .
+- internal styles
+- external styles:
+Its powerfullness depend on that lie in the last.
+due to its overwritting they are less powerfull then inline css.
+COMMENTS IN CSS:
+/*  */ or shortcut key is ctrl + /.
+
+SELECTORS IN CSS:
+- element selector:
+example:
+h1{
+ properties;
+}
+
+- class selector:
+example:
+.class{
+ properties;
+}
+
+- id selector:
+example:
+#id{
+ properties;
+}
+
+* text indient used to give space before paragraph.
+* text-decoration used to create line.
+* text-align used to shift text .
+* on apply shadow three axis are there x,y,blur.
+* text-spacing used for giving space to a text.

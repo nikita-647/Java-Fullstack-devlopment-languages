@@ -1,0 +1,46 @@
+.bg-danger {
+  background-color: red;
+}
+.bg-success {
+  background-color: greenyellow;
+}
+.warning {
+  background-color: yellow;
+}
+.text-danger {
+  color: red;
+}
+.text-success {
+  color: green;
+}
+.text-warning {
+  color: yellowgreen;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+.text-lowercase {
+  text-transform: lowercase;
+}
+.text-capitalize {
+  text-transform: capitalize;
+}
+.font-regular {
+  font-weight: 400;
+}
+.font-medium {
+  font-weight: 500;
+}
+.font-semi-bold {
+  font-weight: 600;
+}
+.font-bold {
+  font-weight: 700;
+}
+.font-bolder {
+  font-weight: 800;
+}
+.pos-1 > h2,
+.pos-3 h2 {
+  color: blueviolet;
+}

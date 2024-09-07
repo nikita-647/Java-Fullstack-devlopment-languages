@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@400;500;700&display=swap");
+:root {
+  --clr-primary: rgb(236, 38, 38);
+  --clr-secondary: lightcoral;
+
+  --fnt-mon: "Montserrat", sans-serif;
+  --fnt-fra: "Fraunces", serif;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+
+  --shadow-sm: 0px 2px 12px black;
+  --shadow-md: 0px 4px 14px black;
+  --shadow-lg: 0px 5px 16px black;
+}
+
+body {
+  font-family: var(--fnt-fra);
+}
+.box {
+  background-color: var(--clr-secondary);
+  width: 100px;
+  height: 100px;
+
+  box-shadow: var(--shadow-lg);
+  border-radius: var(--radius-sm);
+}
+.box-1 {
+  background-color: var(--clr-primary);
+}
+.box-2 {
+  background-color: var(--clr-primary);
+}
+.box-3 {
+  background-color: var(--clr-primary);
+}
+.box-4 {
+  background-color: var(--clr-primary);
+}
+.box-5 {
+  background-color: var(--clr-primary);
+}
