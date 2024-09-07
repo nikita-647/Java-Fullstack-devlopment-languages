@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>subscribe</legend>
+        <div>
+          <label for="one">Name</label>
+          <input name="name" type="text" id="one" value="abc...xyz" />
+        </div>
+
+        <div>
+          <label for="email">email</label>
+          <input
+            name="email"
+            type="email"
+            id="email"
+            placeholder="example@gmail.com"
+          />
+        </div>
+      </fieldset>
+    </form>
+    <br />
+    <br />
+    <br />
+
+    <h1>FORMS</h1>
+    <form action="results.html" method="GET">
+      <div>
+        <label for="one">Name</label>
+        <input name="name" type="text" id="one" value="abc...xyz" />
+      </div>
+
+      <div>
+        <label for="email">email</label>
+        <input
+          name="email"
+          type="email"
+          id="email"
+          placeholder="example@gmail.com"
+        />
+      </div>
+
+      <div>
+        <label for="pass">Password</label>
+        <input name="password" type="password" id="pass" required />
+      </div>
+
+      <div>
+        <label for="date">date of birth</label>
+        <input name="DOB" type="date" id="date" min="2002-02-06" />
+      </div>
+
+      <div>
+        <label for="age">AGE</label>
+        <input type="age" name="age" min="16" max="100" id="age" />
+      </div>
+
+      <div>
+        fruit
+        <label for="apple">apple</label>
+        <input type="checkbox" name="apple" id="apple" />
+      </div>
+
+      <div>
+        <label for="bannana">bannana</label>
+        <input type="checkbox" name="bannana" id="bannana" />
+      </div>
+
+      <div>
+        gender
+        <label for="male">male</label>
+        <input type="radio" name="gender" id="male" />
+      </div>
+
+      <div>
+        <label for="female">female</label>
+        <input type="radio" name="gender" id="female" />
+      </div>
+
+      <div>
+        <label for="lang">programming language</label>
+        <select name="programming language" id="lang">
+          <option name="html">html</option>
+          <option name="css">css</option>
+          <option name="javascript">javascript</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="query">FURTHER QUERY</label>
+        <textarea name="query" id="query" rows="4" cols="12"></textarea>
+      </div>
+
+      <div>
+        <label for="profile">profile image</label>
+        <input type="file" name="profile" id="profile" />
+      </div>
+
+      <div>
+        <label for="phone">phone</label>
+        <input type="tel" name="phone" id="phone" />
+      </div>
+
+      <div>
+        <label for="color">color</label>
+        <input type="color" name="color" id="color" />
+      </div>
+      <div>
+        <button type="submit">Submit</button>
+        <button type="reset">reset</button>
+      </div>
+    </form>
+  </body>
+</html>
